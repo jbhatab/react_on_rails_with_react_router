@@ -13,9 +13,9 @@ function select(state) {
 
 // Simple example of a React "smart" component
 class HelloWorld extends React.Component {
-  constructor(props, context) {
-    super(props, context);
-  }
+  // constructor(props, context) {
+  //   super(props, context);
+  // }
 
   static propTypes = {
     dispatch: PropTypes.func.isRequired,

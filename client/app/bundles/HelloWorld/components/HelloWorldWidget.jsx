@@ -4,6 +4,7 @@
 import React, { PropTypes } from 'react';
 import Immutable from 'immutable';
 import _ from 'lodash';
+import { Link } from 'react-router';
 
 // Simple example of a React "dumb" component
 export default class HelloWorldWidget extends React.Component {
@@ -42,6 +43,7 @@ export default class HelloWorldWidget extends React.Component {
           Say hello to:
           <input type="text" value={name} onChange={this._handleChange} />
         </p>
+        <Link to="/other_page">Other Page</Link>
       </div>
     );
   }
